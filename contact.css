@@ -1,0 +1,44 @@
+body{
+    background-color: rgb(41, 38, 38);
+    color: white;
+}
+.draco{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 25px;
+    padding-left: 5%;
+    padding-right: 5%;
+    flex-wrap: wrap;
+}
+.draco ul li{
+    list-style-type: none;
+    display: inline-block;
+    padding: 10px 20px;
+}
+.draco a{
+    text-decoration: none;
+    color: cadetblue;
+}
+.draco a:hover{
+    color: orangered;
+}
+.qu button{
+    color: white;
+    background-color: orangered;
+    border-radius: 8px;
+    border: none;
+    width: 100px;
+    height: 30px;
+    cursor: pointer;
+   transition: transform .4s;
+}
+.qu button:hover{
+    transform: scale(1.2);
+}
+.oppp{
+    color: cadetblue;
+}
+span{
+    color: orangered;
+}

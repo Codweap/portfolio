@@ -1,0 +1,192 @@
+.hasd{
+    background-color: black;
+}
+.gpp{
+    height: 100vh;
+    background-image: url("photorr.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 25px;
+    padding-left: 5%;
+    padding-right: 5%;
+    flex-wrap: wrap;
+}
+nav ul li{
+    list-style-type: none;
+    display: inline-block;
+    padding: 10px 20px;
+    transition: 5s;
+}
+nav ul li a{
+    text-decoration: none;
+    color: cadetblue;
+
+}
+nav ul li a:hover{
+    color: orangered;
+}
+.ddd button{
+    color: white;
+    background-color: orangered;
+    border-radius: 8px;
+    border: none;
+    width: 100px;
+    height: 30px;
+    cursor: pointer;
+   transition: transform .4s;
+}
+.ddd button:hover{
+    transform: scale(1.2);
+}
+.fum{
+    color: cadetblue;
+}
+span{
+    color: orangered;
+}
+#name1{
+    font-size: 70px;
+}
+.daz h1{
+    color: white;
+    font-size: 40px;
+    padding-left: 70px;
+    margin-top: 100px;
+    transition: 5s;
+}
+.vax{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    background-color: rgb(15, 15, 15);
+}
+.aac img{
+    margin-top: 20px;
+    border-radius: 20px;
+    margin-bottom: 20px;
+    transition: 5s;
+}
+.bg{
+    margin-top: 80px;
+    transition: 5s;
+}
+.bg h4{
+    color: white;
+    font-size: 40px;
+}
+.bg h5{
+    color: cadetblue;
+    font-size: 25px;
+    margin-top: -15px;
+}
+.bg p{
+    color: white;
+    font-size: 15px;
+    margin-top: -20px;
+}
+.bg button{
+    color: white;
+    background-color: orangered;
+    border-radius: 20px;
+    border: none;
+    width: 100px;
+    height: 30px;
+    cursor: pointer;
+   transition: transform, 500ms;
+   margin-bottom: 30px;
+}
+.bg button:hover{
+    transform: scale(1.2);
+}
+.dok{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    background-color: black;
+}
+.hoo{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.hoo div{
+    border: 1px solid orangered;
+    width: 300px;
+    background-color: orangered;
+    color: white;
+    height: 300px;
+    margin-bottom: 50px;
+    border-radius: 30px;
+    text-align: center;
+    transition: 2s;
+}
+.dok h2{
+    text-align: center;
+    font-size: 50px;
+    color: white;
+}
+.hoo div h3{
+    margin-top: 70px;
+}
+.hoo button{
+    background-color: white;
+    color: orangered;
+    width: 150px;
+    height: 30px;
+    border-radius: 20px;
+    transition: 500ms;
+    border: none;
+    margin-top: 20px;
+}
+.hoo button:hover{
+    border: 1px solid white;
+    background-color: transparent;
+    color: white;
+    cursor: pointer;
+}
+.wer{
+    background-color: rgb(15, 15, 15);
+    height: 100px;
+    border: 2px solid rgb(15, 15, 15);
+}
+.wer button{
+    margin-top: 25px;
+    width: 300px;
+    height: 50px;
+    background-color: orangered;
+    color: white;
+    border: none;
+    border-radius: 20px;
+    font-size: 20px;
+    transition: transform, 500ms;
+    cursor: pointer;
+}
+.wer button:hover{
+    background-color: transparent;
+    border: 1px solid orangered;
+    color: orangered;
+    transform: scale(1.1);
+}
+.szx{
+    background-color: black;
+    height: 200px;
+    justify-content: center;
+    border: 1px solid black;
+}
+.szx h2{
+    font-size: 50px;
+    color: orangered;
+    margin-top: 20px;
+    text-align: center;
+}
+.szx li{
+    color: cadetblue;
+    list-style-type: none;
+}

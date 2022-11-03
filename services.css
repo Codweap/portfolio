@@ -1,0 +1,101 @@
+body{
+    background-color: rgb(41, 38, 38);
+}
+.port{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 25px;
+    padding-left: 5%;
+    padding-right: 5%;
+    flex-wrap: wrap;
+}
+.port ul li{
+    list-style-type: none;
+    display: inline-block;
+    padding: 10px 20px;
+}
+.port a{
+    text-decoration: none;
+    color: cadetblue;
+}
+.port a:hover{
+    color: orangered;
+}
+.uort button{
+    color: white;
+    background-color: orangered;
+    border-radius: 8px;
+    border: none;
+    width: 100px;
+    height: 30px;
+    cursor: pointer;
+   transition: transform .4s;
+}
+.uort button:hover{
+    transform: scale(1.2);
+}
+.jort{
+    color: cadetblue;
+}
+span{
+    color: orangered;
+}
+.ptt{
+    border: 2px solid black;
+    background-color: black;
+    color: cadetblue;
+    display: flex;
+    width: 100%;
+    height: 150px;
+    margin-top: 100px;
+}
+.qert{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+.qert div{
+    width: 400px;
+    height: 500px;
+    border: 2px solid transparent;
+    margin-top: 100px;
+    text-align: center;
+    border-radius: 50px;
+    box-shadow: 5px 10px 10px 5px orangered;
+}
+.qert h1{
+    margin-top: 150px;
+    font-size: 50px;
+    color: orangered;
+}
+.qert button{
+    margin-top: 150px;
+    width: 200px;
+    height: 50px;
+    background-color: transparent;
+    border: 2px solid white;
+    border-radius: 40px;
+    font-size: 20px;
+    color: white;
+    transition: 600ms;
+    cursor: pointer;
+}
+.qert button:hover{
+    background-color: orangered;
+}
+.rq{
+    background-image: url("pexels-ready-made-4008845.jpg");
+    background-position: center;
+    background-size: cover;
+    transition: transform 4s;
+}
+.howo{
+    background-image: url("pexels-marcelo-chagas-2183773.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.howo:hover{
+    background-color: rgb(157, 90, 66);
+}
