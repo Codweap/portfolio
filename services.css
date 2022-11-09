@@ -24,7 +24,6 @@ body{
     margin-top: 3px;
 }
 .foppus{
-    text-align: center;
     display: none;
 }
 .foppus li{
@@ -154,10 +153,10 @@ span{
         display: block;
         background-color: rgba(255, 68, 0, 0.525);
         border: 2px solid transparent;
-        width: 180px;
+        width: 200px;
         height: 100%;
         position: fixed;
-        left: 220px;
+        left: 190px;
         margin-top: -20px;
         transition: 1s;
     }
