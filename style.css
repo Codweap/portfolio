@@ -31,8 +31,7 @@
     margin-top: 3px;
 }
 .foppus{
-    text-align: right;
-    margin-right: 30px;
+    text-align: center;
     display: none;
 }
 .foppus li{
@@ -245,17 +244,16 @@ span{
         display: block;
         background-color: rgba(255, 68, 0, 0.525);
         border: 2px solid transparent;
-        width: 100px;
+        width: 180px;
         height: 100%;
         position: fixed;
-        left: 300px;
-        text-align: center;
+        left: 220px;
         margin-top: -20px;
         transition: 1s;
     }
     .fokpe li{
         margin-top: 20px;
-    } 
+    }
     .fokpe a:hover{
         color: white;
     }
