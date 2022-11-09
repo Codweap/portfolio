@@ -1,0 +1,91 @@
+body{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    background-color: rgb(41, 38, 38);
+    font-family: Arial;
+}
+.forge{
+    border: 2px solid rgb(68, 240, 246);
+    background-color: rgb(68, 240, 246);
+    color: white;
+    width: 1050px;
+    border-radius: 60px;
+    transition: 1s;
+    transition-timing-function: cubic-bezier(0.075, 0.82, 0.165, 1);
+    transition-duration: 1s;
+}
+.forge b{
+    color: orangered;
+}
+.forge p{
+    margin: 15px 15px;
+}
+#first1{
+    color: black;
+}
+.forge button{
+    margin-top: 20px;
+    width: 200px;
+    height: 50px;
+    background-color: transparent;
+    border: 2px solid white;
+    border-radius: 40px;
+    font-size: 20px;
+    color: white;
+    transition: 600ms;
+    cursor: pointer;
+    margin-bottom: 30px;
+}
+.forge button:hover{
+    background-color: orangered;
+}
+.forge h3{
+    margin-left: 15px;
+    margin-bottom: 70px;
+}
+.forge h4{
+    margin: 15px;
+}
+form{
+    border: 2px solid rgb(247, 126, 82);
+    width: 370px;
+    margin-top: 20px;
+    border-radius: 10px;
+}
+form label{
+    color: rgb(68, 240, 246);
+    position: relative;
+    top: 8px;
+    margin-left: 20px;
+}
+form input{
+    margin-top: 10px;
+    margin-left: 20px;
+    width: 320px;
+    height: 30px;
+    border-radius: 10px;
+    border: none;
+}
+form textarea{
+    margin-top: 10px;
+    margin-left: 15px;
+    width: 320px;
+    border-radius: 5px;
+}
+#frc1{
+    width: 200px;
+    height: 50px;
+    background-color: transparent;
+    border: 2px solid white;
+    border-radius: 40px;
+    font-size: 20px;
+    color: white;
+    cursor: pointer;
+    margin-bottom: 30px;
+    transition: 600ms;
+    margin-top: 25px;
+}
+#frc1:hover{
+    background-color: orangered;
+}

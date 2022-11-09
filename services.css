@@ -1,5 +1,42 @@
 body{
     background-color: rgb(41, 38, 38);
+    font-family: Arial;
+}
+.goat{
+    border: 1px solid cadetblue;
+    border-radius: 5px;
+    width: 35px;
+    transition: transform 30ms;
+    left: 380px;
+}
+.goat:hover{
+    background-color: orangered;
+    border: 1px solid orangered;
+    transform: scale(1.1);
+}
+.bort{
+    width: 5px;
+    height: 5px;
+    border-radius: 100%;
+    background-color: cadetblue;
+    margin-bottom: 3px;
+    margin-left: 15px;
+    margin-top: 3px;
+}
+.foppus{
+    text-align: right;
+    margin-right: 10px;
+    display: none;
+}
+.foppus li{
+    list-style-type: none;
+}
+.foppus a{
+    text-decoration: none;
+    color: cadetblue;
+}
+.foppus a:hover{
+    color: orangered;
 }
 .port{
     display: flex;
@@ -50,6 +87,17 @@ span{
     height: 150px;
     margin-top: 100px;
 }
+.ptt li{
+    color: cadetblue;
+    list-style-type: none;
+}
+.ptt a{
+    text-decoration: none;
+    color: cadetblue;
+}
+.ptt a:hover{
+    color: orangered;
+}
 .qert{
     display: flex;
     justify-content: space-evenly;
@@ -62,7 +110,7 @@ span{
     margin-top: 100px;
     text-align: center;
     border-radius: 50px;
-    box-shadow: 5px 10px 10px 5px orangered;
+    box-shadow: 0px 5px 5px 0px orangered;
 }
 .qert h1{
     margin-top: 150px;
@@ -98,4 +146,31 @@ span{
 }
 .howo:hover{
     background-color: rgb(157, 90, 66);
+}
+@media screen and (max-width: 800px){
+    .ul{
+        display: none;
+    }
+    .fokpe{
+        display: block;
+        background-color: rgba(255, 68, 0, 0.525);
+        border: 2px solid transparent;
+        width: 100px;
+        height: 100%;
+        position: fixed;
+        left: 300px;
+        text-align: center;
+        margin-top: -20px;
+    }
+    .fokpe li{
+        margin-top: 20px;
+    } 
+    .fokpe a:hover{
+        color: white;
+    }
+}
+@media screen and (min-width: 800px){
+    .goat{
+        display: none;
+    }
 }

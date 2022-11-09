@@ -1,6 +1,43 @@
 body{
     background-color: rgb(41, 38, 38);
     color: white;
+    font-family: Arial;
+}
+.goat{
+    border: 1px solid cadetblue;
+    border-radius: 5px;
+    width: 35px;
+    transition: transform 30ms;
+    left: 380px;
+}
+.goat:hover{
+    background-color: orangered;
+    border: 1px solid orangered;
+    transform: scale(1.1);
+}
+.port{
+    width: 5px;
+    height: 5px;
+    border-radius: 100%;
+    background-color: cadetblue;
+    margin-bottom: 3px;
+    margin-left: 15px;
+    margin-top: 3px;
+}
+.foppus{
+    text-align: right;
+    margin-right: 10px;
+    display: none;
+}
+.foppus li{
+    list-style-type: none;
+}
+.foppus a{
+    text-decoration: none;
+    color: cadetblue;
+}
+.foppus a:hover{
+    color: orangered;
 }
 .draco{
     display: flex;
@@ -72,4 +109,44 @@ body p{
     width: 100%;
     height: 150px;
     margin-top: 100px;
+}
+.part li{
+    color: cadetblue;
+    list-style-type: none;
+}
+.part a{
+    text-decoration: none;
+    color: cadetblue;
+}
+.part a:hover{
+    color: orangered;
+}
+@media screen and (max-width: 800px){
+    .ul{
+        display: none;
+    }
+    .fokpe{
+        display: block;
+        background-color: rgba(255, 68, 0, 0.525);
+        border: 2px solid transparent;
+        width: 100px;
+        height: 100%;
+        position: fixed;
+        left: 300px;
+        text-align: center;
+        transition: 1s;
+        margin-top: -20px;
+    }
+    .fokpe li{
+        margin-top: 20px;
+    }
+    .fokpe a:hover{
+        color: white;
+        font-size: large;
+    }
+}
+@media screen and (min-width: 800px){
+    .goat{
+        display: none;
+    }
 }

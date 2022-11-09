@@ -1,0 +1,85 @@
+body{
+    background-color: rgb(41, 38, 38);
+    font-family: Arial;
+}
+.fake{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.fake div{
+    border: 2px solid orangered;
+    background-color: orangered;
+    width: 220px;
+    height: 310px;
+    border-radius: 20px;
+    margin-top: 20px;
+}
+.fake img{
+    margin-top: 10px;
+    margin-left: 10px;
+}
+.ozai{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.ozai div{
+    border: 2px solid orangered;
+    background-color: orangered;
+    width: 220px;
+    height: 310px;
+    border-radius: 20px;
+    margin-top: 20px;
+}
+.ozai img{
+    margin-top: 10px;
+    margin-left: 10px;
+}
+.frog{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+form{
+    border: 2px solid rgb(247, 126, 82);
+    width: 370px;
+    margin-top: 50px;
+    border-radius: 10px;
+}
+form label{
+    color: rgb(68, 240, 246);
+    position: relative;
+    top: 8px;
+    margin-left: 20px;
+}
+form input{
+    margin-top: 10px;
+    margin-left: 20px;
+    width: 320px;
+    height: 30px;
+    border-radius: 10px;
+    border: none;
+}
+form textarea{
+    margin-top: 10px;
+    margin-left: 20px;
+    width: 320px;
+    border-radius: 5px;
+}
+#frc1{
+    width: 200px;
+    height: 50px;
+    background-color: transparent;
+    border: 2px solid white;
+    border-radius: 40px;
+    font-size: 20px;
+    color: white;
+    cursor: pointer;
+    margin-bottom: 30px;
+    transition: 600ms;
+    margin-top: 25px;
+}
+#frc1:hover{
+    background-color: orangered;
+}
